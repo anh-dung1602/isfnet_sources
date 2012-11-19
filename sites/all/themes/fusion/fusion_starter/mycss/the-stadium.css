@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.node
+{
+	width:316px;
+	height:177px;
+	float:left;
+}
+.node2
+{
+	width:316px;
+	height:177px;
+	float:left;
+	margin:0px 26px 0px 26px;
+}
+.items
+{
+	width:316px;
+	height:177px;
+	margin:0px;
+	text-align:center;
+	vertical-align:middle;
+	border:#1f1f1f 1px solid;
+}
+.items img
+{
+	border:none;
+    margin: 10px;
+}
+table.stadium-table
+{
+	border-collapse:separate;
+}
+.items table.stadium-table
+{
+	position:relative;
+	width:100%;
+	border:0px;
+	padding:0px;
+	cell-padding:0px;
+}
+.items table.stadium-table tr
+{
+	text-align:center;
+}
+.items table.stadium-table th
+{
+	background:#ef0000;
+	text-align:center;
+	border:none;
+	line-height:24px;
+}
+.items table.stadium-table td
+{
+	color:#b1b1b1;
+	padding:4px 0px;
+	line-height:18px;
+}
+.team
+{
+	width:292px;
+	height:26px;
+	display:inline-block;
+	color:#ef0000;
+	line-height:26px;
+	font-size:18px;
+	text-transform:uppercase;
+	font-family:myFont;
+	font-stretch:wider;
+	padding-top: 11px;
+}
+.rate
+{
+	width:292px;
+	height:102px;
+	border-bottom:#352f12 1px dashed;
+	border-top:#352f12 1px dashed;
+	display:inline-block;
+	line-height:102px;
+	color:#ef0000;
+	font-size:72px;
+}
+.date
+{
+	width:292px;
+	height:26px;
+	display:inline-block;
+	color:#d4ab07;
+	line-height:26px;
+}
+.versus
+{
+	font-size:10px;
+	margin:0 35px;
+}

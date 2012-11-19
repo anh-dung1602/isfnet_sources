@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.oly_content table#team-table
+{
+	position:relative;
+	width:100%;
+	border:0px;
+	padding:0px;
+	cell-padding:0px;
+	
+}
+.oly_content table#team-table th
+{
+	font-size:14px;
+	font-family:myFont;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-stretch:wider;
+	color:#ef0000;
+	height:25px;
+	padding:5px;
+	text-align:left;
+}
+.coly_ontent table#team-table td
+{
+	font-weight:normal;
+	color:#b1b1b1;
+	border-top:#101010 1px solid;
+	padding:5px;
+}
+.oly_content table#team-table tr
+{
+	background:url(../css/bg_ct.jpg) top center no-repeat;
+}
+

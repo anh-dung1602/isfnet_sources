@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+/* The navigation */
+#aud_navigation
+{
+	float:right;
+	display:inline-block;
+}
+#aud_navigation ul
+{
+	list-style:none;
+	text-align:right;
+	float:right;
+	margin:0px;
+}
+#aud_navigation li
+{
+	float:left;
+	display:block;
+}
+#aud_navigation li a
+{
+	min-width:120px;
+	height:49px;
+	display:block;
+	text-align:center;
+	background:url(bt_2.jpg) repeat-x;
+	color:#d5eefe;
+	line-height:49px;
+	text-decoration:none;
+	text-align:center;
+	margin:0 1px;
+	padding:0 3px;
+	border-top-left-radius:10px;
+	-moz-border-top-left-radius:10px; /* Firefox 3.6 and earlier */
+	border-top-right-radius:10px;
+	-moz-border-top-right-radius:10px; /* Firefox 3.6 and earlier */
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-style:italic;
+}
+#aud_navigation li a.selected,#aud_navigation li a:hover
+{
+	background:url(bt_1.jpg) repeat-x;
+}
+#aud_navigation li a:hover
+{
+	color:white;
+}
+

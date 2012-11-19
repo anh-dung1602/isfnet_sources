@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+/* The banner */
+#aud_banner
+{
+	width:965px;
+	height:400px;
+	display:inline-block;
+	margin:0 auto;
+}
+.aud_banner_box
+{
+	width:100%;
+	margin:0% 0.5%;
+	border:#fff 1px solid;
+	display:inline-block;
+	height:400px;
+	overflow:hidden;
+}
+.aud_banner_shaddow
+{
+	width:100%;
+	display:inline-block;
+	background:url(shaddow.jpg) no-repeat;
+	height:195px;
+}
+.aud_banner_shaddow_container
+{
+	width:100%;
+	display:inline-block;
+	background:url(shaddow.jpg) no-repeat;
+	height:195px;
+}
+.aud_shaddow
+{
+	background:url(shaddow.jpg) 0 -50px no-repeat;
+	height:140px;
+	width:100%;
+}
+.aud_shaddow_container
+{
+	width:30%;
+	margin:15px 35% 0px;
+	display:inline-block;
+	text-align:justify;
+}
+.aud_shaddow_container a
+{
+	width:15%;
+	height:15%;
+	display:block;
+	float:left;
+	margin:0 2.3%;
+	border-radius:10px;
+	-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+	outline-radius:10px;
+	-moz-outline-radius:10px; /* Firefox 3.6 and earlier */
+	background:#d6efff;
+}
+.aud_shaddow_container a.aud_selected,.aud_shaddow_container a:hover
+{
+	background:#052544;
+	outline:#d6efff 1px solid;
+}
+.aud_step
+{
+	width:96%;
+	height:100px;
+	margin:18% 2% 3%;
+	display:inline-block;
+	position:relative;
+	z-index:1;
+}
+#aud_previous
+{
+	float:left;
+	display:block;
+	width:30px;
+	height:68px;
+	z-index:4;
+	background:url(previous.png) no-repeat;
+}
+#aud_forward
+{
+	float:right;
+	display:block;
+	width:30px;
+	height:68px;
+	z-index:4;
+	background:url(forward.png) no-repeat;
+}
+.aud_banner_img
+{
+	position:absolute;
+	z-index:0;
+	height:400px;
+	width:965px;
+	max-width:965px;
+	overflow:hidden;
+	display:block;
+}
+.aud_banner_img div
+{
+	float:left;
+	position:relative;
+	width:965px;
+	z-index:0;
+}
+#aud_banner_img_1
+{
+	top:0px;
+	left:0px;
+}
+#aud_banner_img_2
+{
+	top:-400px;
+	left:965px;
+}
+.aud_banner_img_hidden
+{
+	display:none;
+	visibility:hidden;
+}
+#block-block-1 h2
+{
+	display:none;
+}
+/* The end */

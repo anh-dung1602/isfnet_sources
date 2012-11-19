@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+#navigation ul
+{
+	position:absolute;
+	width:1000px;
+	height:110px;
+	z-index:1;
+	margin:0 0 0 12px;
+}
+#navigation li
+{
+	list-style:none;
+	float:left;
+	height:59px;
+	width:100px;
+	padding:41px 5px 0px 5px;
+	margin:0px 15px;
+	text-align:center;
+	vertical-align:middle;
+	background:url(bg-list_bn.jpg) repeat-x 0 51px;
+	text-transform:uppercase;
+	font-family:myFont;
+	font-stretch:wider;
+}
+#navigation li:hover
+{
+	color:#ef0000;
+}
+#navigation li a
+{
+	width:40px;
+	height:40px;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+}
+#navigation li a:hover, #navigation li a.selected
+{
+	color:#ef0000;
+	text-decoration:none;
+}
+li span.text1
+{
+	color:#c9c9c9;
+	background:black;
+	padding:0px 5px;
+}
+li span.text2
+{
+	font-size:18px;
+	font-weight:bold;
+}
